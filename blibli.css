@@ -1,100 +1,218 @@
+.container {
+    display: flex;
+    width: 1308px;
+    height: 8012px;
+    margin: 0px;
+    flex-direction: column;
+}
 
-.container{
-display: flex;
-width:1308px;
-height:8012px;
-margin:0px;
-flex-direction:column;
+
+.header {
+    display: flex;
+    width: 1308px;
+    height: 170px;
+    flex-direction: column;
+    background-image: url(fhx.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }
-.header{
-  display:flex; 
-  width: 1308px;
-  height:170px;
-  flex-direction:column;
+
+.key1 {
+    display: flex;
+    height: 42px;
+    background-repeat: no-repeat;
+ background-color:gray;
+
 }
-.key1{
-    display:flex;
-    height:42px;
-    background:rgb(190, 205, 219);
-}
+
 ul {
     list-style-type: none;
-    margin:0px;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(190, 205, 219);
-    
+
+
 }
 
 li {
     float: left;
-   
+
 }
 
 li a {
     display: block;
-    color:black;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size:12px;
+    font-size: 12px;
+
 }
 
 li a:hover {
-    background-color:rgb(180,200,200);
+    background-color: rgb(180, 200, 200);
 }
-.dg{
-    position:absolute;
-    left:1000px;
-}
-.dp{
+
+.dg {
     position: absolute;
-    left:1050px;
-    background-color:palevioletred;
-    border-radius:10%;
+    left: 1000px;
+}
+
+.dp {
+    position: absolute;
+    left: 1050px;
+    background-color: palevioletred;
+    border-radius: 10%;
 }
 
 
-.key2{
-    display:flex;
-    height:128px;
-    background:rgb(186, 204, 27);
+.key2 {
+    display: flex;
+    height: 128px;
+    /*background: rgb(186, 204, 27);*/
 
 }
-.ui{
-    
-    position:absolute;
-    left:800px;
+
+.ui {
+
+    position: absolute;
+    left: 800px;
     margin-top: 73px;
     height: 30px;
     width: 70px;
     border-radius: 9%;
-    writing-mode : lr-tb;
-    background-color:white;
-    text-align:center;
-    color:palevioletred;
-    font-size:10;
-}
-.ug{
-    position:absolute;
-    left:880px;
-    margin-top:73px;
-   
-   
-
+    writing-mode: lr-tb;
+    background-color: white;
+    color: palevioletred;
+    font-size: 15px;
+    text-align: center;
+    text-align-last: center;
 }
 
 
 
-.content{
- width:1308px;  
- height:7700px; 
- left:160px;
-}
-.footer{
-    
-    width:1308px;
-    height:172px;
+.ug {
+    position: absolute;
+    left: 880px;
+    margin-top: 73px;
 
-    background-color: azure;   
+
+
+}
+
+
+
+.content {
+
+    width: 1000px;
+    height: 7700px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sf {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.footer {
+
+    width: 1308px;
+    height: 172px;
+    background-color: azure;
+}
+
+.fir {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.dsd {
+    width: 443px;
+    height: 224px;
+    background-image: url(one.jpg);
+    border-radius: 3%;
+
+
+}
+
+.er {
+    display: flex;
+    flex-direction: column;
+}
+
+.totul {
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    height: 110px;
+    margin-left: 10px;
+}
+
+.dsa {
+    width: 165px;
+    height: 105px;
+    background-image: url(3.png);
+    border-radius: 3%;
+    margin-left: 10px;
+}
+
+.dsb {
+    width: 165px;
+    height: 105px;
+    background-image: url(h.jpg);
+    border-radius: 3%;
+    margin-left: 10px;
+}
+
+.dsc {
+    width: 165px;
+    height: 105px;
+    border-radius: 3%;
+    margin-left: 10px;
+    background-image: url(fi.jpg);
+}
+
+.totull {
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    height: 110px;
+    margin-left: 10px;
+}
+
+.dsg {
+    width: 165px;
+    height: 105px;
+    border-radius: 3%;
+    margin-left: 10px;
+    background-image: url(4.jpg)
+}
+
+.dsh {
+    width: 165px;
+    height: 105px;
+    border-radius: 3%;
+    margin-left: 10px;
+    background-image: url(fh.png)
+}
+
+.dsj {
+    width: 165px;
+    height: 105px;
+    border-radius: 3%;
+    margin-left: 10px;
+    background-image: url(d.jpg)
 }
