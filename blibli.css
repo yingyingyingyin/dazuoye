@@ -166,6 +166,37 @@ a {
   background-image: url(3.png);
   border-radius: 3%;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.dsa:hover .dsa-flex-container {
+  opacity: 1;
+}
+
+.dsa .dsa-flex-container {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: column;
+  transition: .3s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.dsa .dsa-flex-container .first {
+  font-size: 16px;
+  flex-grow: 1;
+  color: #fff;
+  margin: 0;
+}
+
+.dsa .dsa-flex-container .second {
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #99a2aa;
+  margin: 0;
 }
 
 .dsb {
