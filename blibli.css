@@ -21,8 +21,8 @@
 .key1 {
   display: flex;
   height: 42px;
-  background-color: hsla(0,0%,100%,.4);
-  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  background-color: hsla(0, 0%, 100%, .4);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
 }
 
 ul {
@@ -271,7 +271,6 @@ a {
 .promote-second {
   width: 260px;
   height: 35px;
-
   border-radius: 4%;
   display: flex;
   background-color: #e5e9ef;
@@ -311,16 +310,12 @@ a.aaa:hover {
 .f-one {
   width: 163px;
   height: 160px;
-
-
 }
 
 .f-two {
   width: 163px;
   height: 160px;
   margin-left: 10px;
-
-
 }
 
 .picture {
@@ -332,7 +327,7 @@ a.aaa:hover {
   height: 13px;
 }
 
-.background-blur{
+.background-blur {
   filter: blur(4px);
   background-image: url(./fhx.png);
   background-repeat: no-repeat;
@@ -340,4 +335,36 @@ a.aaa:hover {
   position: absolute;
   width: 1308px;
   height: 42px;
+}
+
+.adv {
+  widows: 1000px;
+  height:85px;
+  margin-top: 20px;
+  background-image: url(future.jpg);
+  background-size: 1000px ;
+}
+.now{
+  margin-top:20px;
+  display:flex;
+}
+.start{
+  font-family: 微软雅黑;
+  font-size:25px;
+  left:50px;
+  position: relative;
+  margin-bottom:0px;
+}
+a.start:hover{
+  color:blue;
+}
+.have{
+  position: absolute;
+  margin-top:20px;
+  margin-bottom:10px;
+  left:350px;
+  font-size: 12px;
+}
+.people{
+  color:rgb(81, 46, 240);
 }
