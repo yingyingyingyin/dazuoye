@@ -31,6 +31,8 @@ ul {
   margin: 0px;
   padding: 0;
   overflow: hidden;
+  left: 160px;
+  position: absolute;
 }
 
 li {
@@ -45,12 +47,13 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 12px;
+  transition: .3s;
 
 }
 
 li a:hover {
   background-color: rgb(180, 200, 200);
-  transition: .3s;
+
 }
 
 .dg {
@@ -126,13 +129,14 @@ a {
   width: 1308px;
   height: 172px;
   background-color: azure;
+
 }
 
 .fir {
   display: flex;
   flex-direction: row;
   width: 1000px;
-  height: 270px;
+  height: 224px;
   margin-top: 15px;
 }
 
@@ -207,45 +211,124 @@ a {
 }
 
 .dsj {
-    width: 165px;
-    height: 105px;
-    border-radius: 3%;
-    margin-left: 10px;
-    background-image: url(d.jpg)
+  width: 165px;
+  height: 105px;
+  border-radius: 3%;
+  margin-left: 10px;
+  background-image: url(d.jpg)
 }
 
-.dp:hover~.contribute-container,.contribute-container:hover{
-    opacity: 1;
-    transform: translateY(0);
+.dp:hover~.contribute-container,
+.contribute-container:hover {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.contribute-container{
-    width: 300px;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    background-color: #fff;
-    opacity: 0;
-    transform: translateY(50%);
-    transition: .3s;
-    font-size: 12px;
-    position: absolute;
-    left: 950px;
-    top: 41px;
+.contribute-container {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  background-color: #fff;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: .3s;
+  font-size: 12px;
+  position: absolute;
+  left: 950px;
+  top: 41px;
 }
 
-.contribute-container li{
-    cursor: pointer;
-    transition: .3s;
-    display: block;
-    height: 100%;
-    line-height: 80px;
-    width: 52px;
-    text-align: center;
+.contribute-container li {
+  cursor: pointer;
+  transition: .3s;
+  display: block;
+  height: 100%;
+  line-height: 80px;
+  width: 52px;
+  text-align: center;
 }
 
-.contribute-container li:hover{
-    background-color: #eee;
+.contribute-container li:hover {
+  background-color: #eee;
+}
+
+.promote {
+  width: 1000px;
+  height: 42px;
+  margin-top: 25px;
+}
+
+.promote-font {
+  font-size: 25px;
+  left: 214px;
+  position: absolute;
+  margin-top: 0px;
+
+}
+
+.promote-second {
+  width: 260px;
+  height: 35px;
+
+  border-radius: 4%;
+  display: flex;
+  background-color: #e5e9ef;
+  margin-left: 730px;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.promote-next {
+  width: 1000px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.aaa {
+  color: black;
+  transition: 0.3s;
+}
+
+a.aaa:hover {
+  color: rgb(44, 64, 243);
+}
+
+.promote-next-four {
+  display: flex;
+  justify-content: space-between;
+  width: 730px;
+  height: 150px;
+  font-size: 10px;
+  margin-top: 12px;
+}
+
+
+.f-one {
+  width: 163px;
+  height: 160px;
+
+
+}
+
+.f-two {
+  width: 163px;
+  height: 160px;
+  margin-left: 10px;
+
+
+}
+
+.picture {
+  border-radius: 4%;
+}
+
+.promote-next-one {
+  margin-top: 10px;
+  height: 13px;
 }
