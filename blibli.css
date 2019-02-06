@@ -23,20 +23,26 @@
   height: 42px;
   background-color: hsla(0, 0%, 100%, .4);
   box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  padding: 0 160px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.key1 .left,.key1 .right{
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 ul {
   list-style-type: none;
-  margin: 0px;
+  margin: 0;
   padding: 0;
-  overflow: hidden;
-  left: 160px;
-  position: absolute;
 }
 
-li {
-  float: left;
-
+li{
+  display: block;
 }
 
 li a {
@@ -47,7 +53,7 @@ li a {
   text-decoration: none;
   font-size: 12px;
   transition: .3s;
-
+  cursor: pointer;
 }
 
 li a:hover {
@@ -55,14 +61,7 @@ li a:hover {
 
 }
 
-.dg {
-  position: absolute;
-  left: 1000px;
-}
-
 .dp {
-  position: absolute;
-  left: 1050px;
   background-color: palevioletred;
   border-radius: 10%;
 }
@@ -167,6 +166,37 @@ a {
   background-image: url(3.png);
   border-radius: 3%;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.dsa:hover .dsa-flex-container {
+  opacity: 1;
+}
+
+.dsa .dsa-flex-container {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: column;
+  transition: .3s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.dsa .dsa-flex-container .first {
+  font-size: 16px;
+  flex-grow: 1;
+  color: #fff;
+  margin: 0;
+}
+
+.dsa .dsa-flex-container .second {
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #99a2aa;
+  margin: 0;
 }
 
 .dsb {
@@ -233,9 +263,8 @@ a {
   background-color: #fff;
   opacity: 0;
   transform: translateY(50%);
-  transition: .3s;
+  transition: .3s ease-out;
   font-size: 12px;
-  position: absolute;
   left: 950px;
   top: 41px;
 }
