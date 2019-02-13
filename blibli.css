@@ -29,7 +29,8 @@
   z-index: 1;
 }
 
-.key1 .left,.key1 .right{
+.key1 .left,
+.key1 .right {
   display: flex;
   align-items: center;
   height: 100%;
@@ -41,7 +42,7 @@ ul {
   padding: 0;
 }
 
-li{
+li {
   display: block;
 }
 
@@ -73,7 +74,6 @@ li a:hover {
 }
 
 .ui {
-
   position: absolute;
   left: 800px;
   margin-top: 73px;
@@ -88,21 +88,13 @@ li a:hover {
   text-align-last: center;
 }
 
-
-
 .ug {
   position: absolute;
   left: 880px;
   margin-top: 73px;
-
-
-
 }
 
-
-
 .content {
-
   width: 1000px;
   height: 7700px;
   margin-left: 160px;
@@ -173,7 +165,7 @@ a {
   opacity: 1;
 }
 
-.dsa .dsa-flex-container {
+.dsa-flex-container {
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.7);
   flex-direction: column;
@@ -205,6 +197,43 @@ a {
   background-image: url(h.jpg);
   border-radius: 3%;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.dsb:hover .flex-container1,
+.dsc:hover .flex-container1,
+.dsg:hover .flex-container1,
+.dsh:hover .flex-container1,
+.dsj:hover .flex-container1 {
+  opacity: 1;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: .3s;
+  opacity: 0;
+}
+
+.first1 {
+
+  font-size: 16px;
+  flex-grow: 1;
+  color: #fff;
+  margin: 0;
+
+}
+
+.second2 {
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #99a2aa;
+  margin: 0;
 }
 
 .dsc {
@@ -213,6 +242,7 @@ a {
   border-radius: 3%;
   margin-left: 10px;
   background-image: url(fi.jpg);
+  cursor: pointer;
 }
 
 .totull {
@@ -228,7 +258,8 @@ a {
   height: 105px;
   border-radius: 3%;
   margin-left: 10px;
-  background-image: url(4.jpg)
+  background-image: url(4.jpg);
+  cursor: pointer;
 }
 
 .dsh {
@@ -236,7 +267,8 @@ a {
   height: 105px;
   border-radius: 3%;
   margin-left: 10px;
-  background-image: url(fh.png)
+  background-image: url(fh.png);
+  cursor: pointer;
 }
 
 .dsj {
@@ -244,7 +276,8 @@ a {
   height: 105px;
   border-radius: 3%;
   margin-left: 10px;
-  background-image: url(d.jpg)
+  background-image: url(d.jpg);
+  cursor: pointer;
 }
 
 .dp:hover~.contribute-container,
@@ -322,7 +355,8 @@ a.aaa {
   transition: 0.3s;
 }
 
-a.aaa:hover {
+a.aaa:hover,
+a.can:hover {
   color: rgb(44, 64, 243);
 }
 
@@ -368,32 +402,321 @@ a.aaa:hover {
 
 .adv {
   widows: 1000px;
-  height:85px;
+  height: 85px;
   margin-top: 20px;
   background-image: url(future.jpg);
-  background-size: 1000px ;
+  background-size: 1000px;
 }
-.now{
-  margin-top:20px;
-  display:flex;
+
+.now {
+  margin-top: 20px;
+  display: flex;
 }
-.start{
+
+.start {
   font-family: 微软雅黑;
-  font-size:25px;
-  left:50px;
+  font-size: 25px;
+  left: 50px;
   position: relative;
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
-a.start:hover{
-  color:blue;
+
+a.start:hover {
+  color: blue;
 }
-.have{
+
+.have {
   position: absolute;
-  margin-top:20px;
-  margin-bottom:10px;
-  left:350px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  left: 350px;
   font-size: 12px;
+  color: gray;
 }
-.people{
-  color:rgb(81, 46, 240);
+
+.people {
+  color: rgb(81, 46, 240);
+}
+
+.can {
+  position: relative;
+  left: 40px;
+  color: #99a2aa;
+}
+
+.have-new:hover,
+.have-more:hover {
+  background-color: rgb(154, 168, 187);
+  opacity: 0.7;
+}
+
+.have-new {
+  position: absolute;
+  margin-top: 13px;
+  margin-bottom: 10px;
+  left: 690px;
+  width: 130px;
+  height: 25px;
+  border: solid 1px;
+  border-radius: 8%;
+  border-color: #99a2aa;
+  text-align: center;
+  box-shadow: #fff;
+  cursor: pointer;
+
+}
+
+.have-more {
+  position: absolute;
+  margin-top: 13px;
+  left: 840px;
+  width: 50px;
+  height: 25px;
+  border: solid 1px;
+  border-radius: 8%;
+  border-color: #99a2aa;
+  text-align: center;
+  cursor: pointer;
+}
+
+.living {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  height: 25px;
+  position: absolute;
+  left: 920px;
+  margin-top: 18px;
+}
+
+.living-next {
+  cursor: pointer;
+}
+
+.living-next:hover {
+  color: rgb(129, 101, 230);
+}
+
+.nowliving {
+
+  width: 710px;
+  height: 280px;
+  margin-top: 20px;
+}
+
+.nowliving-first {
+  display: flex;
+  justify-content: space-between;
+  width: 715px;
+  height: 140px;
+  font-size: 10px;
+
+}
+
+.nowliving-first-1 {
+  width: 180px;
+  height: 140px;
+}
+
+.-one:hover,
+.-two:hover,
+.-three:hover,
+.-four:hover {
+  color: rgb(141, 141, 219);
+}
+
+.pic1:hover .pic1-container,
+.pic2:hover .pic1-container,
+.pic3:hover .pic1-container,
+.pic4:hover .pic1-container,
+.pic11:hover .pic1-container,
+.pic22:hover .pic1-container,
+.pic33:hover .pic1-container,
+.pic44:hover .pic1-container {
+  opacity: 1;
+}
+
+.pic1-container {
+  display: flex;
+  opacity: 0;
+  background-image: url(four1.jpg);
+  transition: .3s;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+}
+
+.pic1 {
+  background-image: url(six.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pic2 {
+  background-image: url(seven.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.pic3 {
+  background-image: url(eight.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pic4 {
+  background-image: url(ten.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pic11 {
+  background-image: url(one1.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pic22 {
+  background-image: url(two2.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pic33 {
+  background-image: url(three3.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pic44 {
+  background-image: url(four1.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nowliving-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.living-last {
+  position: absolute;
+  left: 900px;
+  top: 840px;
+  width: 260px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.living-last-1 {
+  width: 260px;
+  height: 40px;
+  margin-bottom: 4px;
+  display: flex;
+}
+
+.living-last-one {
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  background-color: rgb(219, 75, 99);
+  color: rgb(241, 222, 222);
+  text-align: center;
+  font-weight: bold;
+}
+
+.living-last-two {
+
+  position: relative;
+  left: 65px;
+  top: 0px;
+  font-size: 12px;
+  font-family: 微软雅黑;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.living-last-two:hover {
+  color: blue;
+}
+
+.living-last-three {
+  position: relative;
+  left: 12px;
+  top: 10px;
+  color: gray;
+  font-size: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.living-last-four {
+  position: relative;
+  left: 50px;
+  top: 0px;
+  color: gray;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cartoon {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cartoon-header {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 1000px;
+}
+
+
+.cartoon-header-1 {
+  font-size: 25px;
+  position: relative;
+  left: 60px;
+  cursor: pointer;
+}
+
+.cartoon-header-2 {
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+
+.cartoon-header-3 {
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
+
+.cartoon-header-1:hover,
+a.cartoon-header-2:hover,
+a.cartoon-header-3:hover {
+  color: rgb(116, 116, 211);
+}
+
+.cartoon-header-4 {
+  
 }
