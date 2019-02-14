@@ -681,7 +681,7 @@ a.start:hover {
 
 .cartoon {
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .cartoon-header {
@@ -718,5 +718,201 @@ a.cartoon-header-3:hover {
 }
 
 .cartoon-header-4 {
+
+  position: relative;
+  border: solid 1px;
+  width: 100px;
+  height: 25px;
+  left: 400px;
+  margin-top: 13px;
+  border-color: gray;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cartoon-header-4:hover,
+.cartoon-header-5:hover {
+  background-color: #99a2aa;
+}
+
+.cartoon-header-5 {
+  position: relative;
+  left: 420px;
+  width: 50px;
+  height: 25px;
+  border: solid 1px;
+  border-color: gray;
+  border-radius: 4px;
+  margin-top: 13px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cartoon-header-6 {
+  position: relative;
+  left: 450px;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+.cartoon-header-7 {
+  position: relative;
+  left: 480px;
+  font-size: 12px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.cartoon-header-8 {
+  position: relative;
+  left: 490px;
+  font-size: 12px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.cartoon-header-9 {
+  position: relative;
+  left: 550px;
+  margin-top: 16px;
+}
+
+.cartoon-content {
+  width: 720px;
+  height: 320;
+
+}
+
+.cartoon-content-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  height: 140px;
+  margin-top: 10px;
+}
+
+.cartoon-content-1-1 {
+  display:flex;
+  background-image: url(cartoon1.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
   
+}
+
+.cartoon-content-shadow1 {
+ 
+  width: 160px;
+  height: 100px;
+  
+}
+
+.shadow2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: red;
+  transform: .3s;
+
+
+}
+
+.cartoon-content-shadow1:hover .shadow2 {
+  opacity: 1;
+}
+
+a.first {
+  display: flex;
+  margin-top: 90px;
+  width:140px;
+  height:20px;
+}
+
+.cartoon-content-1-2 {
+  background-image: url(cartoon2.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+a.second {
+  display: flex;
+  margin-top: 90px;
+}
+
+.cartoon-content-1-3 {
+  background-image: url(cartoon3.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  display: flex;
+}
+
+a.third {
+  display: flex;
+  margin-top: 105px;
+}
+
+.cartoon-content-1-4 {
+  background-image: url(cartoon4.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+a.four4 {
+  display: flex;
+  margin-top: 90px;
+}
+
+.cartoon-content-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 700px;
+  height: 140px;
+}
+
+.cartoon-content-2-1 {
+  background-image: url(f-four.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+
+
+.cartoon-content-2-2 {
+  background-image: url(eight.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+
+
+.cartoon-content-2-3 {
+  background-image: url(f-two.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+  display: flex;
+}
+
+
+.cartoon-content-2-4 {
+  background-image: url(f-three.jpg);
+  width: 160px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+a.first:hover,
+a.second:hover,
+a.third:hover,
+a.four4:hover {
+  color: blue;
 }
