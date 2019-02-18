@@ -948,7 +948,7 @@ a.four4:hover,
   height: 20px;
   left: 750px;
   margin-top: 0px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .drama {
@@ -1004,7 +1004,7 @@ a.four4:hover,
 
 .drama-header2-2:hover {
   background-color: palevioletred;
-  color:white;
+  color: white;
 }
 
 .drama-header2-3 {
@@ -1027,10 +1027,73 @@ a.four4:hover,
 }
 
 .drama-content-1 {
-  width: 700px;
+  width: 850px;
   height: 420px;
   margin-top: 15px;
-  background-color: gray;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+
+}
+.wyyyyyyy{
+  width:650px;
+  height:420px;
+}
+.drama-content-1_1{
+  width: 700px;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.drama-a {
+  width: 200px;
+  height: 100px;
+ display:flex;
+}
+
+.drama-a-1 {
+  display: flex;
+  background-image: url(../image/f-four.jpg);
+  width: 80px;
+  height: 80px;
+  background-size: 100% 100%;
+  border-radius: 4px;
+}
+
+.drama-a-2 {
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+.drama-a-2-1 {
+
+  width: 90px;
+  height: 30px;
+  position: relative;
+
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.drama-a-2-1:hover {
+  color: rgb(56, 56, 190);
+}
+
+.drama-a-3-1 {
+  position: relative;
+  margin-top: 30px;
+  font-size: 12px;
+  display:flex;
+  color:gray;
+}
+.fourlive{
+  background-color:palevioletred;
+  color:white;
+  width:40px;
+  height:18px;
+  text-align: center;
+  border-radius:9px;
 }
 
 .drama-content-2 {
@@ -1042,8 +1105,9 @@ a.four4:hover,
   margin-top: 15px;
   margin-left: 55px;
 }
-.button-more-2{
-  width:260px;
-  cursor:pointer;
+
+.button-more-2 {
+  width: 260px;
+  cursor: pointer;
 
 }
