@@ -645,6 +645,16 @@ a.start:hover {
   font-weight: bold;
 }
 
+.living-last-one-1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  background-color: gray;
+  color: rgb(241, 222, 222);
+  text-align: center;
+  font-weight: bold;
+}
+
 .living-last-two {
 
   position: relative;
@@ -883,8 +893,6 @@ a.four4 {
   border-radius: 4px;
 }
 
-
-
 .cartoon-content-2-2 {
   background-image: url(../image/eight.jpg);
   width: 160px;
@@ -940,6 +948,7 @@ a.four4:hover,
   height: 20px;
   left: 750px;
   margin-top: 0px;
+  cursor:pointer;
 }
 
 .drama {
@@ -985,7 +994,7 @@ a.four4:hover,
 .drama-header2-2 {
   width: 120px;
   height: 35px;
-  color: pink;
+  color: palevioletred;
   border: solid 1px;
   border-radius: 4px;
   font-size: 14px;
@@ -995,6 +1004,7 @@ a.four4:hover,
 
 .drama-header2-2:hover {
   background-color: palevioletred;
+  color:white;
 }
 
 .drama-header2-3 {
@@ -1012,24 +1022,28 @@ a.four4:hover,
 
 .drama-content {
   display: flex;
- 
-  width:1000px;
+
+  width: 1000px;
 }
 
 .drama-content-1 {
   width: 700px;
-  height: 440px;
+  height: 420px;
   margin-top: 15px;
-  background-color:gray;
+  background-color: gray;
 }
 
 .drama-content-2 {
   display: flex;
-  flex-direction :column;
+  flex-direction: column;
   width: 200px;
   height: 440px;
   position: relative;
   margin-top: 15px;
   margin-left: 55px;
+}
+.button-more-2{
+  width:260px;
+  cursor:pointer;
 
 }
