@@ -392,7 +392,7 @@ a.can:hover {
 
 .background-blur {
   filter: blur(4px);
-  background-image: url(image/fhx.png);
+  background-image: url(../image/fhx.png);
   background-repeat: no-repeat;
   background-size: 1308px 170px;
   position: absolute;
@@ -1030,7 +1030,7 @@ a.four4:hover,
   width: 850px;
   height: 420px;
   margin-top: 15px;
-  overflow: scroll;
+  overflow: auto;
   display: flex;
   flex-direction: column;
 
