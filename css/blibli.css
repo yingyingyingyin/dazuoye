@@ -1035,21 +1035,23 @@ a.four4:hover,
   flex-direction: column;
 
 }
-.wyyyyyyy{
-  width:650px;
-  height:420px;
+
+.wyyyyyyy {
+  width: 650px;
+  height: 420px;
 }
-.drama-content-1_1{
+
+.drama-content-1_1 {
   width: 700px;
   height: 100px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
 .drama-a {
   width: 200px;
   height: 100px;
- display:flex;
+  display: flex;
 }
 
 .drama-a-1 {
@@ -1084,16 +1086,17 @@ a.four4:hover,
   position: relative;
   margin-top: 30px;
   font-size: 12px;
-  display:flex;
-  color:gray;
+  display: flex;
+  color: gray;
 }
-.fourlive{
-  background-color:palevioletred;
-  color:white;
-  width:40px;
-  height:18px;
+
+.fourlive {
+  background-color: palevioletred;
+  color: white;
+  width: 40px;
+  height: 18px;
   text-align: center;
-  border-radius:9px;
+  border-radius: 9px;
 }
 
 .drama-content-2 {
