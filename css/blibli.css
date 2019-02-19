@@ -327,6 +327,7 @@ a {
   left: 214px;
   position: absolute;
   margin-top: 0px;
+  font-family: 微软雅黑;
 
 }
 
@@ -703,6 +704,7 @@ a.start:hover {
 
 
 .cartoon-header-1 {
+  font-family: 微软雅黑;
   font-size: 25px;
   position: relative;
   left: 60px;
@@ -934,7 +936,8 @@ a.four4:hover,
 }
 
 .header-8-container {
-  opacity: 0;
+ opacity: 0;
+ transition: .3s;
   width: 260px;
   height: 310px;
   position: absolute;
@@ -968,7 +971,7 @@ a.four4:hover,
 }
 
 .drama-header1 {
-
+  font-family:微软雅黑;
   position: relative;
   left: 60px;
   font-size: 24px;
@@ -1112,5 +1115,20 @@ a.four4:hover,
 .button-more-2 {
   width: 260px;
   cursor: pointer;
+
+}
+.living-next-a{
+  font-family: 微软雅黑;
+  font-size:16px;
+}
+.drama-move{
+  width:330px;
+  height:280px;
+  background-image:url(../image/drama-move.jpg);
+  position: absolute;
+  top:2080px;
+   left:900px;
+   background-size:100% 100%;
+   border-radius:5px;
 
 }
