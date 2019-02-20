@@ -1,0 +1,189 @@
+.drama {
+    position: relative;
+    width: 1000px;
+    height: 470px;
+    margin-top: 30px;
+}
+
+.drama-header {
+    display: flex;
+    width: 1000px;
+    height: 40px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.drama-header1 {
+    font-family: 微软雅黑;
+    position: relative;
+    left: 60px;
+    font-size: 24px;
+
+}
+
+.drama-header2 {
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 18px;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.drama-header1:hover,
+.drama-header2-1:hover {
+    color: blue;
+}
+
+.drama-header2-2 {
+    width: 120px;
+    height: 35px;
+    color: palevioletred;
+    border: solid 1px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.drama-header2-2:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.drama-header2-3 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    margin: 0px;
+}
+
+.drama-header2-4 {
+    position: relative;
+    left: 140px;
+}
+
+.country-content {
+    display: flex;
+
+    width: 1000px;
+    height: 300px;
+}
+
+.country-content-1 {
+    width: 850px;
+    height: 350px;
+    margin-top: 15px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wyyyyyyy {
+    width: 650px;
+    height: 420px;
+}
+
+.drama-content-1_1 {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drama-a {
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+
+.country-a-1 {
+    display: flex;
+    background-image: url(../image/three3.jpg);
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 4px;
+}
+
+.drama-a-2 {
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.drama-a-2-1 {
+
+    width: 90px;
+    height: 30px;
+    position: relative;
+
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.drama-a-2-1:hover {
+    color: rgb(56, 56, 190);
+}
+
+.drama-a-3-1 {
+    position: relative;
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    color: gray;
+}
+
+.fourlive {
+    background-color: palevioletred;
+    color: white;
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.country-content-2 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 350px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.button-more-2 {
+    width: 260px;
+    cursor: pointer;
+
+}
+
+.living-next-a {
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+
+.drama-move {
+    width: 330px;
+    height: 280px;
+    background-image: url(../image/drama-a.jpg);
+    position: absolute;
+    top: 2080px;
+    left: 900px;
+    background-size: 100% 100%;
+    border-radius: 5px;
+
+}
+
+.country-content-2-last {
+    width: 250px;
+    height: 130px;
+    background-image: url(../image/f-two.jpg);
+    background-size: 100% 100%;
+    margin-top: 20px;
+    border-radius:4px;
+}

@@ -1,0 +1,22 @@
+.footer- {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    margin-top:30px;
+    background-color: #f6f9fa;
+}
+
+.footer-container {
+    display: flex;
+    width: 1000px;
+    height: 350px;
+    margin:50px 160px 50px 160px;
+    background-color:gray;
+    
+
+}
+.footer-content1{
+    display:flex;
+    width:100%;
+    height:130px;
+}

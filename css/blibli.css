@@ -1,7 +1,7 @@
 .container {
   display: flex;
-  width: 1308px;
-  height: 8012px;
+  width: 1408px;
+  height: 4512px;
   margin: 0px;
   flex-direction: column;
 }
@@ -9,8 +9,8 @@
 
 .header {
   display: flex;
-  width: 1308px;
-  height: 170px;
+  width: 1408px;
+  height: 200px;
   flex-direction: column;
   background-image: url(../image/fhx.png);
   background-repeat: no-repeat;
@@ -492,6 +492,7 @@ a.start:hover {
 
 .living-next {
   cursor: pointer;
+  font-size: 12px;
 }
 
 .living-next:hover {
@@ -502,7 +503,7 @@ a.start:hover {
 
   width: 710px;
   height: 280px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .nowliving-first {
@@ -936,8 +937,8 @@ a.four4:hover,
 }
 
 .header-8-container {
- opacity: 0;
- transition: .3s;
+
+  transition: .3s;
   width: 260px;
   height: 310px;
   position: absolute;
@@ -971,7 +972,7 @@ a.four4:hover,
 }
 
 .drama-header1 {
-  font-family:微软雅黑;
+  font-family: 微软雅黑;
   position: relative;
   left: 60px;
   font-size: 24px;
@@ -1117,18 +1118,20 @@ a.four4:hover,
   cursor: pointer;
 
 }
-.living-next-a{
+
+.living-next-a {
   font-family: 微软雅黑;
-  font-size:16px;
+  font-size: 16px;
 }
-.drama-move{
-  width:330px;
-  height:280px;
-  background-image:url(../image/drama-move.jpg);
+
+.drama-move {
+  width: 330px;
+  height: 280px;
+  background-image: url(../image/drama-move.jpg);
   position: absolute;
-  top:2080px;
-   left:900px;
-   background-size:100% 100%;
-   border-radius:5px;
+  top: 2080px;
+  left: 900px;
+  background-size: 100% 100%;
+  border-radius: 5px;
 
 }
