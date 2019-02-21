@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  width: 1408px;
+  
   height: 4512px;
   margin: 0px;
   flex-direction: column;
@@ -9,12 +9,13 @@
 
 .header {
   display: flex;
-  width: 1408px;
+ 
   height: 200px;
   flex-direction: column;
   background-image: url(../image/fhx.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  flex-shrink: 0;
 
 }
 
@@ -97,8 +98,8 @@ li a:hover {
 .content {
   width: 1000px;
   height: 7700px;
-  margin-left: 160px;
-  margin-right: 160px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 a {
@@ -622,7 +623,7 @@ a.start:hover {
 .living-last {
   position: absolute;
   left: 900px;
-  top: 840px;
+  top: 860px;
   width: 260px;
   height: 280px;
   display: flex;
@@ -1126,12 +1127,12 @@ a.four4:hover,
 
 .drama-move {
   width: 330px;
-  height: 280px;
+  height: 260px;
   background-image: url(../image/drama-move.jpg);
   position: absolute;
-  top: 2080px;
+  top: 2100px;
   left: 900px;
-  background-size: 100% 100%;
+  background-size: 100% 260px;
   border-radius: 5px;
 
 }

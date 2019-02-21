@@ -1,22 +1,135 @@
 .footer- {
-    display: flex;
-    width: 100%;
-    height: 650px;
-    margin-top:30px;
-    background-color: #f6f9fa;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  margin-top: 40px;
+  background-color: #f6f9fa;
+  flex-shrink: 0;
+
 }
 
 .footer-container {
-    display: flex;
-    width: 1000px;
-    height: 350px;
-    margin:50px 160px 50px 160px;
-    background-color:gray;
-    
+  display: flex;
+  width: 1000px;
+  height: 350px;
+  margin: 50px 160px 50px 160px;
+  flex-direction: column;
+
+
 
 }
-.footer-content1{
-    display:flex;
-    width:100%;
-    height:130px;
+
+.footer-content1 {
+  display: flex;
+  width: 100%;
+  height: 130px;
+  justify-content: space-between;
+}
+
+.footer-content1-1 {
+  display: flex;
+  width: 320px;
+
+  flex-direction: column;
+}
+
+.content1-1-title {
+  color: gray;
+}
+
+.content1-1-a {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.aboutus {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.aboutus-2 {
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.aboutus:hover,
+.aboutus-2:hover {
+  color: rgb(92, 92, 224);
+}
+
+.pic-A {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  font-size: 16px;
+
+
+}
+
+.pic-a {
+  width: 90px;
+  height: 80px;
+  background-image: url(../image/load.png);
+  background-size: 100% 100%;
+}
+
+.footer-content1-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-b {
+  width: 90px;
+  height: 80px;
+  background-image: url(../image/weibo.png);
+  background-size: 100% 100%;
+}
+
+.pic-c {
+  width: 90px;
+  height: 80px;
+  background-image: url(../image/weixin.png);
+  background-size: 100% 100%;
+}
+
+.footer-content2-1 {
+  width: 120px;
+  height: 160px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content2 {
+  width: 1000px;
+  height: 250px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.content2-1-a {
+  font-size: 18px;
+  color: rgb(79, 79, 151);
+  height: 30px;
+}
+
+.content2-1-b {
+  width: 120px;
+  height: 130px;
+  background-image: url(../image/shanghai.png);
+  background-size: 100% 100%;
+
+}
+
+.footer-content2-2 {
+  display: flex;
+  flex-direction: column;
+  color:gray;
+
+}
+
+.content2-2-a {
+  margin-top: 20px;
+  color: gray;
 }
