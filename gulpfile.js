@@ -17,7 +17,7 @@ const path = {
   sass: './src/styles/**/*.scss',
   css: './src/styles/**/*.css',
   js: './src/scripts/**/*.js',
-  images: './src/images/**/*',
+  image: './src/image/**/*',
   html: './src/**/*.html',
   fonts:'./src/fonts/**/*'
 }
