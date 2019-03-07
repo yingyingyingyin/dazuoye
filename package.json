@@ -1,0 +1,34 @@
+{
+  "name": "bilibili",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "imagemin": "gulp imagemin",
+    "htmlmin": "gulp htmlmin",
+    "minifycss": "gulp minifycss",
+    "uglify": "gulp uglify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingyingyingyin/dazuoye.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yingyingyingyin/dazuoye/issues"
+  },
+  "homepage": "https://github.com/yingyingyingyin/dazuoye#readme",
+  "devDependencies": {
+    "gulp-html": "^0.5.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
+}
