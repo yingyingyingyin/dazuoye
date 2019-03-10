@@ -14,9 +14,6 @@
   height: 350px;
   margin: 50px 160px 50px 160px;
   flex-direction: column;
-
-
-
 }
 
 .footer-content1 {
@@ -29,7 +26,6 @@
 .footer-content1-1 {
   display: flex;
   width: 320px;
-
   flex-direction: column;
 }
 
@@ -126,7 +122,6 @@
   display: flex;
   flex-direction: column;
   color:gray;
-
 }
 
 .content2-2-a {

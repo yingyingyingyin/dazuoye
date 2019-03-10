@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  color: transparent;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
